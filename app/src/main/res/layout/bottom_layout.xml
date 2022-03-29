@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:background="@color/gray">
+    
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@+id/id_sign">
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/tab_sign"
+            android:id="@+id/iv_sign_in"/>
+        <TextView
+            android:layout_width="32dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tx_sign"
+            android:gravity="center"
+            android:text="签到"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@+id/id_task">
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/tab_task"
+            android:id="@+id/iv_task"/>
+        <TextView
+            android:layout_width="32dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tx_task"
+            android:gravity="center"
+            android:text="任务"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@+id/id_person">
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/tab_person"
+            android:id="@+id/iv_person"/>
+        <TextView
+            android:layout_width="32dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tx_person"
+            android:gravity="center"
+            android:text="我的"/>
+    </LinearLayout>
+
+</LinearLayout>
